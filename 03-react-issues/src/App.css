@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(54, 54, 71);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-family: fantasy;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+    background: linear-gradient(
+      0deg,
+      rgba(130, 157, 237, 0.25) 20%,
+      rgba(200, 155, 212, 0.25) 90%
+    );
+    background-blend-mode: normal;
+}
+
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin: 0;
+  font-size: 14px;
+  color: #e2dcdc;
+}
+
+.search-bar {
+  background-color: #dbcaf3; 
+}
+
+.issue-title {
+  color: #cc99dc;
+}
+
